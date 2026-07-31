@@ -2,7 +2,7 @@ const skills = [
   ["Security Systems", "Access control · Biometric terminals · CCTV and video management"],
   ["Technical Support", "System configuration · Diagnostics · Testing · Documentation"],
   ["Installation", "Low-voltage wiring · Hardware setup · Device integration"],
-  ["Customer Operations", "Phone and chat support · Time management · Teamwork"],
+  ["AI-Assisted Development", "Vibe coding · Rapid prototyping · Web dashboards · Continuous learning"],
 ];
 
 const experiences = [
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="hero-copy reveal">
           <p className="eyebrow"><i /> Fourth-Year Electronics Engineering Student · Santa Rosa, Laguna</p>
           <h1>Building smarter systems for <em>real-world problems.</em></h1>
-          <p className="hero-lede">I&apos;m Clarence, a final-term Electronics Engineering student with hands-on experience in technical support, security systems, customer service, and field operations.</p>
+          <p className="hero-lede">I&apos;m Clarence, a final-term Electronics Engineering student with hands-on experience in technical support, security systems, IoT, and AI-assisted development. I use vibe coding to turn practical ideas into working prototypes and I&apos;m committed to continuously improving my software skills.</p>
           <div className="actions"><a className="button primary" href="#projects">Explore my work <span>↓</span></a><a className="button ghost" href="#contact">Let&apos;s connect</a></div>
           <div className="availability"><span>●</span> Open to entry-level technical, engineering, and operations opportunities</div>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
       <section className="section about" id="about">
         <div className="section-label">01 / ABOUT</div>
         <div className="about-copy"><p className="kicker">Technical curiosity. Practical experience.</p><h2>Learning fast and building systems that <em>work reliably.</em></h2></div>
-        <div className="about-text"><p>I&apos;m completing my final term in BS Electronics Engineering at AMA Computer College - Biñan Campus. My experience spans access control, biometric devices, CCTV and video systems, low-voltage wiring, system testing, customer support, and operations.</p><p>I bring a hands-on mindset, clear communication, and the discipline to work independently or with a team.</p><div className="facts"><span><b>Based in</b>Santa Rosa, Laguna</span><span><b>Expected completion</b>November 2026</span></div></div>
+        <div className="about-text"><p>I&apos;m completing my final term in BS Electronics Engineering at AMA Computer College - Biñan Campus. My experience spans access control, biometric devices, CCTV and video systems, low-voltage wiring, system testing, IoT, and customer support.</p><p>I&apos;m also knowledgeable in vibe coding and AI-assisted development, which I use to build and improve functional web dashboards and prototypes. I bring a hands-on mindset, clear communication, and a strong willingness to learn from feedback.</p><div className="facts"><span><b>Based in</b>Santa Rosa, Laguna</span><span><b>Expected completion</b>November 2026</span></div></div>
       </section>
 
       <section className="section skills-section" id="skills">
@@ -59,8 +59,8 @@ export default function Home() {
       <section className="section projects" id="projects">
         <div className="section-head"><div><div className="section-label">03 / FEATURED WORK</div><h2>Projects with purpose.</h2></div></div>
         <article className="featured-card">
-          <div className="project-content"><div className="project-top"><span className="project-no">01</span><span className="pill">THESIS PROJECT</span></div><p className="kicker">Smart Infrastructure · IoT</p><h3>Smart Roadside Drainage with Integrated Debris Storage &amp; Sensor-Based Monitoring</h3><p>An intelligent drainage system designed to detect rising water and accumulated debris before they become serious hazards—supporting faster response and preventive maintenance.</p><div className="tech"><span>ESP32</span><span>JSN-SR04T</span><span>Float Switch</span><span>LTE</span><span>Android</span></div><ul><li>Real-time water-level and debris monitoring</li><li>LTE-connected Android dashboard</li><li>Preventive maintenance alerts</li></ul></div>
-          <div className="project-schematic" aria-label="Smart drainage monitoring system diagram"><div className="schematic-title">LIVE SYSTEM ARCHITECTURE <span>● ONLINE</span></div><div className="pipe"><i/><i/><i/></div><div className="water"><span>WATER LEVEL</span><b>68%</b></div><div className="sensor s-ultra"><small>JSN-SR04T</small><strong>DEBRIS</strong></div><div className="sensor s-float"><small>FLOAT SWITCH</small><strong>LEVEL</strong></div><div className="gateway">ESP32<br/><span>LTE GATEWAY</span></div><div className="phone"><div>SMART DRAIN</div><b>68%</b><small>Maintenance due</small></div></div>
+          <div className="project-content"><div className="project-top"><span className="project-no">01</span><span className="pill">THESIS PROJECT</span></div><p className="kicker">Smart Infrastructure · IoT · Web Dashboard</p><h3>Smart Roadside Drainage with Integrated Debris Storage &amp; Sensor-Based Monitoring</h3><p>An intelligent drainage system designed to detect rising water and accumulated debris before they become serious hazards—supporting faster response and preventive maintenance. I also developed a responsive monitoring dashboard through AI-assisted development and iterative prototyping.</p><div className="tech"><span>ESP32</span><span>JSN-SR04T</span><span>Float Switch</span><span>LTE</span><span>Web Dashboard</span><span>AI-Assisted Development</span></div><ul><li>Real-time drainage status monitoring</li><li>Multi-unit dashboard and alerts</li><li>Preventive maintenance visibility</li></ul><a className="project-live" href="https://smart-drainage-4z2l.vercel.app/" target="_blank" rel="noreferrer">View live dashboard <b>↗</b></a></div>
+          <a className="project-preview" href="https://smart-drainage-4z2l.vercel.app/" target="_blank" rel="noreferrer" aria-label="Open the Smart Drainage live monitoring dashboard"><img src="/smart-drainage-dashboard.png" alt="Smart Drainage real-time monitoring dashboard showing eight drainage units"/><span>Open live monitoring dashboard <b>↗</b></span></a>
         </article>
         <div className="project-grid">{projects.map(p => <article className="project-card" key={p.num}><span>{p.num}</span><p className="kicker">{p.tag}</p><h3>{p.title}</h3><p>{p.text}</p><a href="#contact" aria-label={`Ask about ${p.title}`}>View project <b>↗</b></a></article>)}</div>
       </section>
