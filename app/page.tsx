@@ -13,8 +13,9 @@ const experiences = [
 ];
 
 const projects = [
-  { num: "02", title: "ESP32 IoT Prototypes", tag: "Embedded Systems", text: "Sensor-driven prototypes for real-time data gathering, wireless communication, and remote monitoring." },
-  { num: "03", title: "Network Design Labs", tag: "Cisco / CCNA", text: "Practical LAN design, IP addressing, device configuration, and connectivity troubleshooting in Packet Tracer." },
+  { num: "02", title: "VoltForge", tag: "Next.js · Electronics Engineering", text: "A local-first electronics learning and engineering workspace combining component research, datasheet intelligence, interactive circuit tools, PCB practice, project coaching, and AI-assisted explanations.", href: "https://voltforge-gray.vercel.app" },
+  { num: "03", title: "ESP32 IoT Prototypes", tag: "Embedded Systems", text: "Sensor-driven prototypes for real-time data gathering, wireless communication, and remote monitoring." },
+  { num: "04", title: "Network Design Labs", tag: "Cisco / CCNA", text: "Practical LAN design, IP addressing, device configuration, and connectivity troubleshooting in Packet Tracer." },
 ];
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
           <div className="project-content"><div className="project-top"><span className="project-no">01</span><span className="pill">THESIS PROJECT</span></div><p className="kicker">Smart Infrastructure · IoT · Web Dashboard</p><h3>Smart Roadside Drainage with Integrated Debris Storage &amp; Sensor-Based Monitoring</h3><p>An intelligent drainage system designed to detect rising water and accumulated debris before they become serious hazards—supporting faster response and preventive maintenance. I developed its responsive monitoring dashboard through AI-assisted development and iterative prototyping, demonstrating my ability to create similar monitoring systems for other real-world applications.</p><div className="tech"><span>ESP32</span><span>JSN-SR04T</span><span>Float Switch</span><span>LTE</span><span>Web Dashboard</span><span>AI-Assisted Development</span></div><ul><li>Real-time drainage status monitoring</li><li>Multi-unit dashboard and alerts</li><li>Preventive maintenance visibility</li></ul><div className="demo-note"><b>How to explore the demo</b><span>Open the live dashboard, then click <strong>“Open portfolio demo.”</strong> The demo includes system information and simulated random drainage events so you can see how the application responds to normal, warning, full, overflow, and disconnected conditions.</span></div><a className="project-live" href="https://smart-drainage-4z2l.vercel.app/" target="_blank" rel="noreferrer">Open dashboard &amp; try demo mode <b>↗</b></a></div>
           <a className="project-preview" href="https://smart-drainage-4z2l.vercel.app/" target="_blank" rel="noreferrer" aria-label="Open the Smart Drainage portfolio demonstration"><img src="/smart-drainage-dashboard.png" alt="Smart Drainage portfolio demo showing system information and simulated drainage conditions"/><span>Click “Open portfolio demo” on the login screen <b>↗</b></span></a>
         </article>
-        <div className="project-grid">{projects.map(p => <article className="project-card" key={p.num}><span>{p.num}</span><p className="kicker">{p.tag}</p><h3>{p.title}</h3><p>{p.text}</p><a href="#contact" aria-label={`Ask about ${p.title}`}>View project <b>↗</b></a></article>)}</div>
+        <div className="project-grid">{projects.map(p => <article className="project-card" key={p.num}><span>{p.num}</span><p className="kicker">{p.tag}</p><h3>{p.title}</h3><p>{p.text}</p><a href={p.href ?? "#contact"} target={p.href ? "_blank" : undefined} rel={p.href ? "noreferrer" : undefined} aria-label={p.href ? `Open ${p.title} live project` : `Ask about ${p.title}`}>{p.href ? "Open live project" : "View project"} <b>↗</b></a></article>)}</div>
       </section>
 
       <section className="section experience" id="experience">
