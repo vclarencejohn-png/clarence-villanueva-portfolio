@@ -3,7 +3,7 @@ import { headers } from "next/headers";
 import "./globals.css";
 
 const title = "Clarence John Villanueva | Technical Support & Electronics Engineering";
-const description = "Portfolio of Clarence John Villanueva, a fourth-year Electronics Engineering student with experience in technical support, security systems, customer service, and operations.";
+const description = "Portfolio of Clarence John Villanueva, an academically complete Electronics Engineering graduate from Batch 2026 with experience in technical support, security systems, customer service, and operations.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();

@@ -8,7 +8,7 @@ const skills = [
 const experiences = [
   { period: "Jun - Jul 2026 · 240 hours", role: "Technical Support Intern", company: "MTECH Biometrics Ltd. Corporation", text: "Configured, wired, tested, and troubleshot access-control, biometric, CCTV, visitor-management, and barrier systems for demonstrations and technical support." },
   { period: "Jan 2024 - Feb 2025", role: "Customer Service Representative", company: "Telepro Limited Corp.", text: "Resolved customer inquiries through phone and chat while maintaining accuracy and service quality during high-volume interactions." },
-  { period: "Jan 2021 - Present", role: "Part-Time Delivery Rider", company: "Foodpanda Philippines", text: "Manage delivery schedules around academic commitments while handling routes, timing, and customer concerns independently." },
+  { period: "Jan 2021 - Present", role: "Part-Time Delivery Rider", company: "Foodpanda Philippines", text: "Manage delivery schedules independently while handling routes, timing, and customer concerns reliably." },
   { period: "2019 - 2023", role: "Service, Production & Maintenance", company: "McDonald's Biñan Highway", text: "Supported customer service, production, transactions, and routine maintenance in a fast-paced operation." },
 ];
 
@@ -26,9 +26,9 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-grid-bg" />
         <div className="hero-copy reveal">
-          <p className="eyebrow"><i /> Fourth-Year Electronics Engineering Student · Santa Rosa, Laguna</p>
+          <p className="eyebrow"><i /> Electronics Engineering · Batch 2026 · Santa Rosa, Laguna</p>
           <h1>Building smarter systems for <em>real-world problems.</em></h1>
-          <p className="hero-lede">I&apos;m Clarence, a final-term Electronics Engineering student with hands-on experience in technical support, security systems, IoT, and AI-assisted development. I use vibe coding to turn practical ideas into working prototypes and I&apos;m committed to continuously improving my software skills.</p>
+          <p className="hero-lede">I&apos;m Clarence, an academically complete Electronics Engineering graduate from Batch 2026 with hands-on experience in technical support, security systems, IoT, and AI-assisted development. I use vibe coding to turn practical ideas into working prototypes and I&apos;m committed to continuously improving my software skills.</p>
           <div className="actions"><a className="button primary" href="#projects">Explore my work <span>↓</span></a><a className="button ghost" href="#contact">Let&apos;s connect</a></div>
           <div className="availability"><span>●</span> Open to entry-level technical, engineering, and operations opportunities</div>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
       <section className="section about" id="about">
         <div className="section-label">01 / ABOUT</div>
         <div className="about-copy"><p className="kicker">Technical curiosity. Practical experience.</p><h2>Learning fast and building systems that <em>work reliably.</em></h2></div>
-        <div className="about-text"><p>I&apos;m completing my final term in BS Electronics Engineering at AMA Computer College - Biñan Campus. My experience spans access control, biometric devices, CCTV and video systems, low-voltage wiring, system testing, IoT, and customer support.</p><p>I&apos;m also knowledgeable in vibe coding and AI-assisted development, which I use to build and improve functional web dashboards and prototypes. I bring a hands-on mindset, clear communication, and a strong willingness to learn from feedback.</p><div className="facts"><span><b>Based in</b>Santa Rosa, Laguna</span><span><b>Expected completion</b>November 2026</span></div></div>
+        <div className="about-text"><p>I academically completed my BS Electronics Engineering at AMA Computer College - Biñan Campus as part of Batch 2026. My experience spans access control, biometric devices, CCTV and video systems, low-voltage wiring, system testing, IoT, and customer support.</p><p>I&apos;m also knowledgeable in vibe coding and AI-assisted development, which I use to build and improve functional web dashboards and prototypes. I bring a hands-on mindset, clear communication, and a strong willingness to learn from feedback.</p><div className="facts"><span><b>Based in</b>Santa Rosa, Laguna</span><span><b>Academic status</b>Complete · Batch 2026</span></div></div>
       </section>
 
       <section className="section skills-section" id="skills">
@@ -69,7 +69,7 @@ export default function Home() {
       </section>
 
       <section className="section credentials" id="education">
-        <div className="education-card"><div className="section-label">05 / EDUCATION</div><span className="big-number">BSECE</span><p>Bachelor of Science in</p><h2>Electronics Engineering</h2><small>AMA Computer College - Biñan Campus · Fourth year, final term</small><div className="progress"><span style={{width:"95%"}}/></div></div>
+        <div className="education-card"><div className="section-label">05 / EDUCATION</div><span className="big-number">BSECE</span><p>Bachelor of Science in</p><h2>Electronics Engineering</h2><small>AMA Computer College - Biñan Campus · Batch 2026</small><div className="progress"><span style={{width:"100%"}}/></div></div>
         <div className="certs" id="certifications"><div className="section-label">06 / TRAINING &amp; CERTIFICATES</div><h2>Always learning.</h2><div className="cert-list"><article><span>01</span><div><h3>CCNA: Introduction to Networks</h3><p>Cisco Networking Academy · AMA Computer University · April 20, 2026</p></div><a href="/ccna-introduction-to-networks-certificate.pdf" target="_blank" rel="noreferrer">VIEW ↗</a></article><article><span>02</span><div><h3>Electrical Installation &amp; Maintenance Training</h3><p>Santa Rosa Manpower Training Center · 2024</p></div><b>COMPLETED</b></article><article><span>03</span><div><h3>SMART Technopreneurship 101</h3><p>Completed September 2025</p></div><a href="https://drive.google.com/file/d/12SuBX07tjaC7Y_fpXu_Z38gHwVyh6399/view" target="_blank" rel="noreferrer">VIEW ↗</a></article><article><span>04</span><div><h3>English for Business &amp; Entrepreneurship</h3><p>Completed September 2025</p></div><a href="https://drive.google.com/file/d/10HNKul7j_6EJffjU-xe1Id6DiUzoPBEd/view" target="_blank" rel="noreferrer">VIEW ↗</a></article></div></div>
       </section>
 
