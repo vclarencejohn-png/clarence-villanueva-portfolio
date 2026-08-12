@@ -43,3 +43,6 @@ next-env.d.ts
 /tmp/
 /work/
 .dev-server.*.log
+.dev-preview*.log
+.sites-package-stage*/
+portfolio-site*.tar.gz
