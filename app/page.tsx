@@ -1,5 +1,6 @@
 import JarvisCommandCenter from './JarvisCommandCenter';
 import HudAtmosphere from './HudAtmosphere';
+import HudTransition from './HudTransition';
 
 const skills = [
   ["Security Systems", "Access control · Biometric terminals · CCTV and video management"],
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <main>
       <HudAtmosphere />
+      <HudTransition />
       <header className="nav-shell">
         <a className="brand" href="#top" aria-label="Clarence Villanueva home"><span>CV</span><b>Clarence Villanueva</b></a>
         <nav aria-label="Primary navigation">
