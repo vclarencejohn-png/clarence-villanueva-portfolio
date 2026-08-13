@@ -44,5 +44,6 @@ next-env.d.ts
 /work/
 .dev-server.*.log
 .dev-preview*.log
+.vercel-preview.log
 .sites-package-stage*/
 portfolio-site*.tar.gz
