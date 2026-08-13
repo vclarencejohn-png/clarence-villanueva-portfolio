@@ -1,3 +1,5 @@
+import PcbVisualizer from './PcbVisualizer';
+
 const skills = [
   ["Security Systems", "Access control · Biometric terminals · CCTV and video management"],
   ["Technical Support", "System configuration · Diagnostics · Testing · Documentation"],
@@ -62,6 +64,8 @@ export default function Home() {
           <div className="project-content"><div className="project-top"><span className="project-no">02</span><span className="pill">FULL-STACK PROJECT</span></div><p className="kicker">Electronics Education · Engineering Tools · AI</p><h3>VoltForge — Engineering, made buildable.</h3><p>A free, local-first electronics learning and engineering workspace that brings research, design, simulation, documentation, and guided learning into one responsive application.</p><div className="tech"><span>Next.js</span><span>TypeScript</span><span>Supabase</span><span>AI-Assisted Learning</span><span>PCB Tools</span><span>PWA</span></div><ul><li>Datasheet intelligence with cited answers</li><li>Schematic, SPICE, and PCB workspaces</li><li>Interactive lessons and engineering calculators</li><li>Local-first projects, notes, and progress</li></ul><div className="demo-note"><b>What this demonstrates</b><span>I can plan and build complex, user-focused web applications that combine engineering knowledge, interactive tools, data workflows, and responsible AI-assisted features.</span></div><a className="project-live" href="https://voltforge-gray.vercel.app" target="_blank" rel="noreferrer">Launch VoltForge <b>↗</b></a></div>
         </article>
       </section>
+
+      <PcbVisualizer />
 
       <section className="section experience" id="experience">
         <div className="section-head"><div><div className="section-label">04 / EXPERIENCE</div><h2>Experience beyond the classroom.</h2></div><p>Technical work and service roles that strengthened my reliability, adaptability, and people skills.</p></div>
