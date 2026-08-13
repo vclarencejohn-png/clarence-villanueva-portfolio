@@ -1,3 +1,5 @@
+import JarvisCommandCenter from './JarvisCommandCenter';
+
 const skills = [
   ["Security Systems", "Access control · Biometric terminals · CCTV and video management"],
   ["Technical Support", "System configuration · Diagnostics · Testing · Documentation"],
@@ -32,11 +34,7 @@ export default function Home() {
           <div className="actions"><a className="button primary" href="#projects">Explore my work <span>↓</span></a><a className="button ghost" href="#contact">Let&apos;s connect</a></div>
           <div className="availability"><span>●</span> Open to entry-level technical, engineering, and operations opportunities</div>
         </div>
-        <div className="hero-visual" aria-label="Abstract connected engineering system visualization">
-          <div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="core"><span>ESP</span><b>32</b></div>
-          <div className="node n1"><b>01</b><span>SENSOR</span></div><div className="node n2"><b>02</b><span>LTE</span></div><div className="node n3"><b>03</b><span>ALERT</span></div>
-          <div className="telemetry"><small>SYSTEM STATUS</small><strong><i/> MONITORING</strong><div><span/><span/><span/><span/><span/></div></div>
-        </div>
+        <JarvisCommandCenter />
         <div className="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
       </section>
 
