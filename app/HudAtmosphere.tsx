@@ -38,6 +38,8 @@ export default function HudAtmosphere() {
       <div className="hud-radar hud-radar-right"><i /><b>07 / NODE</b></div>
       <div className="hud-trace hud-trace-a"><i /><i /><i /></div>
       <div className="hud-trace hud-trace-b"><i /><i /><i /></div>
+      <div className="hud-schematic hud-schematic-a"><i /><i /><i /><i /></div>
+      <div className="hud-schematic hud-schematic-b"><i /><i /><i /><i /></div>
       <div className="hud-readout hud-readout-left"><span>LIVE TELEMETRY</span><b>LINK 98.4%</b><i /></div>
       <div className="hud-readout hud-readout-right"><span>ENVIRONMENT</span><b>STABLE / 26°C</b><i /></div>
       <div className="hud-particles">
