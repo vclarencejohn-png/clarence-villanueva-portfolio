@@ -47,3 +47,10 @@ next-env.d.ts
 .vercel-preview.log
 .sites-package-stage*/
 portfolio-site*.tar.gz
+
+# local deployment/source snapshots
+/*.tar.gz
+/*.zip
+
+# unpublished resume source files must not be served or committed
+/public/*.docx
